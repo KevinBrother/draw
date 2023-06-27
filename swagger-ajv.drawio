@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T07:59:58.681Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Qhp7uDsMLZnKYySC_Br4" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T08:07:38.370Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="E8kQe06uks6nNY2DzzaG" version="21.5.1" type="github">
   <diagram name="第 1 页" id="T7KggxuoEruzN0f5po2e">
     <mxGraphModel dx="954" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -18,8 +18,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cqJHQV9-dRMsiJILZrJO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqJHQV9-dRMsiJILZrJO-3" target="cqJHQV9-dRMsiJILZrJO-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="250" as="sourcePoint" />
+            <mxPoint x="620" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="200" />
+              <mxPoint x="621" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="cqJHQV9-dRMsiJILZrJO-3" value="验证返回值是否符合json schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="415" y="290" width="170" height="60" as="geometry" />
@@ -115,6 +122,78 @@
         </mxCell>
         <mxCell id="cqJHQV9-dRMsiJILZrJO-34" value="验证返回值是否符合zod schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="640" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqJHQV9-dRMsiJILZrJO-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="1028" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="1028" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-41" value="YApi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="cqJHQV9-dRMsiJILZrJO-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="920" as="targetPoint" />
+            <mxPoint x="645" y="990" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="645" y="991" />
+              <mxPoint x="440" y="991" />
+              <mxPoint x="440" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="cqJHQV9-dRMsiJILZrJO-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="990" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-44" value="测试服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqJHQV9-dRMsiJILZrJO-46" target="cqJHQV9-dRMsiJILZrJO-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-46" value="前端项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqJHQV9-dRMsiJILZrJO-48" target="cqJHQV9-dRMsiJILZrJO-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-48" value="根据类型定义，生成zod schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqJHQV9-dRMsiJILZrJO-50" target="cqJHQV9-dRMsiJILZrJO-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-50" value="写单元测试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cqJHQV9-dRMsiJILZrJO-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqJHQV9-dRMsiJILZrJO-54" target="cqJHQV9-dRMsiJILZrJO-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="1150" />
+              <mxPoint x="90" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-53" value="修改前端项目类型定义与使用处" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqJHQV9-dRMsiJILZrJO-52">
+          <mxGeometry x="-0.16" y="1" relative="1" as="geometry">
+            <mxPoint x="-49" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-54" value="验证返回值是否符合zod schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1030" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-56" value="自动生成类型定义、service、zode schema、单元测试文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="930" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
