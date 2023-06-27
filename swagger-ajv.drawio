@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T14:42:18.232Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jloe5Z_V5fVOnbAT272b" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T14:50:16.990Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qEKWEscrzyESBWPvPyZh" version="21.5.1" type="github">
   <diagram name="第 1 页" id="T7KggxuoEruzN0f5po2e">
     <mxGraphModel dx="1166" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -84,7 +84,7 @@
         <mxCell id="cqJHQV9-dRMsiJILZrJO-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqJHQV9-dRMsiJILZrJO-26" target="cqJHQV9-dRMsiJILZrJO-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cqJHQV9-dRMsiJILZrJO-26" value="根据类型定义，生成zod schema" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="cqJHQV9-dRMsiJILZrJO-26" value="根据类型定义，生成zod schema文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cqJHQV9-dRMsiJILZrJO-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqJHQV9-dRMsiJILZrJO-28" target="cqJHQV9-dRMsiJILZrJO-34" edge="1">
