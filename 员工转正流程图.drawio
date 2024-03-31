@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-31T05:08:05.584Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="wJKJOlSelkkIkGmSnekJ" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-31T05:09:43.126Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="FaZN-FypBKuev0AS_qPF" version="23.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1782" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="bFKuGhDbSaAm7sb_LOsL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bFKuGhDbSaAm7sb_LOsL-1" target="bFKuGhDbSaAm7sb_LOsL-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFKuGhDbSaAm7sb_LOsL-1" value="根据formUuid 与筛刷条件获取今天转正通过的实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="bFKuGhDbSaAm7sb_LOsL-1" value="根据formUuid 与筛刷条件获取今天转正通过的实例列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bFKuGhDbSaAm7sb_LOsL-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bFKuGhDbSaAm7sb_LOsL-3" target="bFKuGhDbSaAm7sb_LOsL-12">
@@ -51,6 +51,20 @@
         </mxCell>
         <mxCell id="bFKuGhDbSaAm7sb_LOsL-18" value="给上述所有查询的用户发送邮件" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFKuGhDbSaAm7sb_LOsL-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="250" as="sourcePoint" />
+            <mxPoint x="-100" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="550" />
+              <mxPoint x="700" y="540" />
+              <mxPoint x="710" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bFKuGhDbSaAm7sb_LOsL-22" value="对上面的列表通过多线程方案实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40" y="258" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
