@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T11:39:42.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="VuRe-N2mBAdyApkY1NYe" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T11:50:59.675Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="140vlcObYsZGsRwNzV6J" version="24.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1194" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1085" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -102,8 +102,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EGJwQnW9SdyxZlmGQHke-30" value="&amp;nbsp; &amp;nbsp; 1. 执行前面的保存操作（有修改不提示，直接触发保存）&lt;div&gt;&amp;nbsp; &amp;nbsp; 2. 与把参数传递给 本地库， 生成 .zip 压缩文件与 MD5。&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 3. 把 .zip 文件路径、md5、与其他项目和控制相关的参数组合成http请求参数，上传文件 发送到控制中心。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1230" y="540" width="330" height="140" as="geometry" />
+        <mxCell id="EGJwQnW9SdyxZlmGQHke-30" value="&amp;nbsp; &amp;nbsp; 1. 执行前面的保存操作（有修改不提示，直接触发保存）&lt;div&gt;&amp;nbsp; &amp;nbsp; 2. 把参数传递给 本地库，生成 .zip 压缩文件与 MD5。&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 3. 把 .zip 文件路径、md5，与其他流程和控制中心相关的参数组合成http请求参数，上传文件 发送到控制中心。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="540" width="350" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
