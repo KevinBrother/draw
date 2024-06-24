@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T14:33:22.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="9vqni05VgQx1bterlQYC" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T14:43:26.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="CbjVn-9svluz93BLX1qk" version="20.8.20" type="github">
   <diagram name="第 1 页" id="jzlJeiso7Pvc1WCV_yvY">
     <mxGraphModel dx="1434" dy="3227" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -80,6 +80,51 @@
         </mxCell>
         <mxCell id="1U5JIpxvgaTDl-cOjemG-14" value="发布依赖库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1U5JIpxvgaTDl-cOjemG-40">
           <mxGeometry x="251.04545454545456" y="36" width="96.76227272727273" height="28.68" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-79" value="" style="group;strokeColor=default;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="21" y="-519" width="456" height="694" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-58" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=default;" vertex="1" parent="1U5JIpxvgaTDl-cOjemG-79">
+          <mxGeometry x="171" y="22.35431918008785" width="100" height="60.96632503660322" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-59" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=default;" vertex="1" parent="1U5JIpxvgaTDl-cOjemG-79">
+          <mxGeometry x="171.5" y="608.0036749633967" width="100" height="60.96632503660322" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-61" value="点击依赖库，安装xxx依赖" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1U5JIpxvgaTDl-cOjemG-79">
+          <mxGeometry x="124" y="114.8199121522694" width="192" height="60.96632503660322" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1U5JIpxvgaTDl-cOjemG-79" source="1U5JIpxvgaTDl-cOjemG-58" target="1U5JIpxvgaTDl-cOjemG-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-63" value="选择依赖库的某个版本或 latest" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1U5JIpxvgaTDl-cOjemG-79">
+          <mxGeometry x="124.87" y="211.3499267935578" width="192.25" height="60.96632503660322" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1U5JIpxvgaTDl-cOjemG-79" source="1U5JIpxvgaTDl-cOjemG-61" target="1U5JIpxvgaTDl-cOjemG-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-65" value="点击安装" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1U5JIpxvgaTDl-cOjemG-79">
+          <mxGeometry x="124.87" y="302.7994143484627" width="192.25" height="60.96632503660322" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1U5JIpxvgaTDl-cOjemG-79" source="1U5JIpxvgaTDl-cOjemG-63" target="1U5JIpxvgaTDl-cOjemG-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-67" value="将依赖下载到指定目录中" style="whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=default;" vertex="1" parent="1U5JIpxvgaTDl-cOjemG-79">
+          <mxGeometry x="125" y="392.21669106881404" width="193" height="60.96632503660322" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1U5JIpxvgaTDl-cOjemG-79" source="1U5JIpxvgaTDl-cOjemG-65" target="1U5JIpxvgaTDl-cOjemG-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1U5JIpxvgaTDl-cOjemG-79" source="1U5JIpxvgaTDl-cOjemG-72" target="1U5JIpxvgaTDl-cOjemG-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-72" value="将依赖库与依赖库的版本写入到依赖描述文件中" style="whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=default;" vertex="1" parent="1U5JIpxvgaTDl-cOjemG-79">
+          <mxGeometry x="125" y="497.891654465593" width="193" height="60.96632503660322" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1U5JIpxvgaTDl-cOjemG-79" source="1U5JIpxvgaTDl-cOjemG-67" target="1U5JIpxvgaTDl-cOjemG-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1U5JIpxvgaTDl-cOjemG-80" value="流程安装依赖" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1U5JIpxvgaTDl-cOjemG-79">
+          <mxGeometry x="323" y="22.35" width="116" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
