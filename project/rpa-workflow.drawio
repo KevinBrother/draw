@@ -42,7 +42,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="m5qws31zE2dzG8nbzbMP-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="根据 rpad-api(metadata.json) + AST(ast.json) 生成 python 代码" vertex="1">
-          <mxGeometry height="40" width="312" x="216" y="670" as="geometry" />
+          <mxGeometry height="40" width="384" x="180" y="670" as="geometry" />
         </mxCell>
         <mxCell id="m5qws31zE2dzG8nbzbMP-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="End" vertex="1">
           <mxGeometry height="70" width="116" x="320" y="1030" as="geometry" />
