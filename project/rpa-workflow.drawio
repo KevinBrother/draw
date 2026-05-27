@@ -27,21 +27,21 @@
         <mxCell id="m5qws31zE2dzG8nbzbMP-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BE" vertex="1">
           <mxGeometry height="60" width="120" x="312" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="m5qws31zE2dzG8nbzbMP-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="FE: 前端&amp;nbsp;&lt;div&gt;BE: 后端&lt;/div&gt;&lt;div&gt;CA: Cloud Agent&lt;/div&gt;&lt;div&gt;EA: Edge Agent&lt;/div&gt;&lt;div&gt;IR: Intermediate Representation&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="m5qws31zE2dzG8nbzbMP-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="FE: 前端&amp;nbsp;&lt;div&gt;BE: 后端&lt;/div&gt;&lt;div&gt;CA: Cloud Agent&lt;/div&gt;&lt;div&gt;EA: Edge Agent&lt;/div&gt;&lt;div&gt;IR: Intermediate Representation&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="188" x="500" y="10" as="geometry" />
         </mxCell>
         <mxCell id="m5qws31zE2dzG8nbzbMP-20" edge="1" parent="1" source="m5qws31zE2dzG8nbzbMP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="m5qws31zE2dzG8nbzbMP-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m5qws31zE2dzG8nbzbMP-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CA" vertex="1">
-          <mxGeometry height="60" width="120" x="312" y="550" as="geometry" />
+          <mxGeometry height="60" width="120" x="312" y="555" as="geometry" />
         </mxCell>
         <mxCell id="m5qws31zE2dzG8nbzbMP-21" edge="1" parent="1" source="m5qws31zE2dzG8nbzbMP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="m5qws31zE2dzG8nbzbMP-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="372" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m5qws31zE2dzG8nbzbMP-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="根据 rpad-api生成 python 代码&lt;div&gt;根据&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IR Schema 生成 IR JSON&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="m5qws31zE2dzG8nbzbMP-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="根据 rpad-api(metadata.json) + AST(ast.json) 生成 python 代码" vertex="1">
           <mxGeometry height="40" width="280" x="232" y="670" as="geometry" />
         </mxCell>
         <mxCell id="m5qws31zE2dzG8nbzbMP-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="End" vertex="1">
@@ -172,6 +172,9 @@
         </mxCell>
         <mxCell id="m5qws31zE2dzG8nbzbMP-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="手动拖拽节点&lt;div&gt;UI Workflow 、IR JSON&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="180" x="982" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="R8NPVQxvtN7rztPs4T8D-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="40" width="300" x="500" y="555" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
