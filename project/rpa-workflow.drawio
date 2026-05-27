@@ -42,7 +42,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="m5qws31zE2dzG8nbzbMP-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="根据 rpad-api(metadata.json) + AST(ast.json) 生成 python 代码" vertex="1">
-          <mxGeometry height="40" width="280" x="232" y="670" as="geometry" />
+          <mxGeometry height="40" width="312" x="216" y="670" as="geometry" />
         </mxCell>
         <mxCell id="m5qws31zE2dzG8nbzbMP-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="End" vertex="1">
           <mxGeometry height="70" width="116" x="320" y="1030" as="geometry" />
@@ -172,9 +172,6 @@
         </mxCell>
         <mxCell id="m5qws31zE2dzG8nbzbMP-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="手动拖拽节点&lt;div&gt;UI Workflow 、IR JSON&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="180" x="982" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="R8NPVQxvtN7rztPs4T8D-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
-          <mxGeometry height="40" width="300" x="500" y="555" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
